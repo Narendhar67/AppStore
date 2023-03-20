@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Bree Serif';
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+
+.searchBar {
+  display: flex;
+  border: 1px solid #fff1eb;
+  padding: 8px;
+}
+
+.searchIcon {
+  width: 24px;
+  height: 24px;
+  margin: 0px;
+}
+.search {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.tabsBox {
+  display: flex;
+  list-style-type: none;
+}
+
+.appList-Container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
